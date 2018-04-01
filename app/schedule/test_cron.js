@@ -9,7 +9,7 @@ module.exports = {
     async task(ctx) {
         console.log('test in ...')
         const app = ctx.app;
-        let i = 250;
+        let i = 2000;
         while (i-- > 0) {
             let requestId = 'id-'+new Date().getTime() + i;
             let appkey = '3fb916a8b1d1a179bd5f746bf9509b5e';
@@ -26,7 +26,7 @@ module.exports = {
             //     contentType: 'json',
             //     dataType: 'json',
             // });
-            console.log(new Date() + 'count=' + i)
+            // console.log(new Date() + 'count=' + i)
 
             let data = {"enable": false, "time": "1522490885397", "code": 2, "id": requestId, "operate": "door"}
 

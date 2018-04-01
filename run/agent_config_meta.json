@@ -111,6 +111,8 @@
       "keepalive": "/Users/Excel/work/node/wolf-iot/config/config.default.js",
       "clean": "/Users/Excel/work/node/wolf-iot/config/config.default.js"
     },
+    "url": "/Users/Excel/work/node/wolf-iot/config/config.default.js",
+    "options": "/Users/Excel/work/node/wolf-iot/config/config.default.js",
     "default": {
       "connectTimeout": "/Users/Excel/work/node/wolf-iot/node_modules/_egg-mqtt@1.0.1@egg-mqtt/config/config.default.js",
       "keepalive": "/Users/Excel/work/node/wolf-iot/node_modules/_egg-mqtt@1.0.1@egg-mqtt/config/config.default.js",

@@ -62,7 +62,7 @@ exports.offlineInterval = 65; //离线间隔
 
 exports.mqtt = {
     client: {
-        host: '140.143.236.241',
+        host: '127.0.0.1',
         port: '1883',
         user: '',
         password: '',
@@ -70,5 +70,9 @@ exports.mqtt = {
         connectTimeout: 30 * 1000,
         keepalive: 5,
         clean: false
+    },
+    url: 'mqtt://127.0.0.1',
+    options: {
+
     }
 };
