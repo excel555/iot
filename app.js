@@ -12,7 +12,7 @@ module.exports = app => {
             var msgObj = JSON.parse(str);
             let mqttMsg = new app.model.Mqtt({
                 topic: topic,
-                createTime: parseInt(msgObj.time),
+                createTime: parseInt(msgObj.time / 1000),
                 deviceId: deviceId,
                 operation: msgObj.operate,
                 content: str,
