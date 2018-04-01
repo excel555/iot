@@ -12,7 +12,7 @@
     gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc
     
     yum -y install mongodb-org  
-    /etc/init.d/mongod start
+  /etc/init.d/mongod start
 * 安装mqtt : yum install mosquitto   systemctl start mosquitto
 * 修改配置文件config/config.prod.js   
 * 启动应用 npm start / npm stop
