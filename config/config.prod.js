@@ -70,5 +70,9 @@ exports.mqtt = {
         connectTimeout: 30 * 1000,
         keepalive: 5,
         clean: false
+    },
+    url: 'mqtt://127.0.0.1',
+    options: {
+
     }
 };
