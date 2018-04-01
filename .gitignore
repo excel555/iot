@@ -1,4 +1,6 @@
 # Logs
+.idea/
+.idea/*
 *.DS_Store
 logs
 *.log

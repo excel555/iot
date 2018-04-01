@@ -3,7 +3,7 @@ module.exports = app => {
     const mongoose = app.mongoose;
     const MqttSchema = new mongoose.Schema({
         createTime: {type: Number, default: 0},
-        deviceId: {type: String},
+        deviceId: {type: String, index: true},
         operation: {type: String},
         topic: {type: String},
         content: {type: String},

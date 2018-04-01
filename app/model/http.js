@@ -3,7 +3,7 @@ module.exports = app => {
     const mongoose = app.mongoose;
     const HttpSchema = new mongoose.Schema({
         createTime: {type: Number, default: 0},
-        deviceId: {type: String},
+        deviceId: {type: String, index: true},
         operation: {type: String},
         param: {type: String},
         response: {type: String},

@@ -4,7 +4,7 @@ module.exports = app => {
     const mongoose = app.mongoose;
     const ClientSchema = new mongoose.Schema({
         name: {type: String},
-        code: {type: String},
+        code: {type: String, index: true},
         addTime: {type: Number, default: 0},
         concact: {type: String},
         tel: {type: String},
