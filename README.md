@@ -14,5 +14,6 @@
     yum -y install mongodb-org  
   /etc/init.d/mongod start
 * 安装mqtt : yum install mosquitto   systemctl start mosquitto
-* 修改配置文件config/config.prod.js   
+* 修改配置文件config/config.prod.js
+* 安装项目依赖 cnpm install / npm install
 * 启动应用 npm start / npm stop
